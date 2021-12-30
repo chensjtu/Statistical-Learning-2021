@@ -3,6 +3,12 @@ This is a personal repo of the Class project for **Statistical Learning 2021**. 
 
 I believe that basic methods are not supposed to cost lots of time, so just take and use these codes! Enjoy yourself, and Happy New Year!
 
+## data preprocessing
+It is worth noticing that there are 695 frames whose values are all only zero. For instance, the frame 701, who is the first frame of ``1542.npy`` , owns the feature of:
+```
+array([-0., -0., -0., -0., -0., -0., -0., -0., -0., -0., -0., -0., -0., -0., -0.])
+```
+To get better performance, it is **necessary** to remove these feats.
 
 ## requirments
 ```
